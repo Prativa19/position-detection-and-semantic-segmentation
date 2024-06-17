@@ -32,9 +32,9 @@
      
 5. **Install FSOCO Tools**
    
-   # Make sure you are in the tools directory, otherwise adjust the '.' path to point to it.
-   # Use Setuptools configuration to install tools to environment
-   # For usage of the CLI tools only
+      #Make sure you are in the tools directory, otherwise adjust the '.' path to point to it.
+      #Use Setuptools configuration to install tools to environment
+      #For usage of the CLI tools only
      ```bash
      pip install --editable .[sly]
     ## For development install additional dependencies from requirements.txt and set up pre-commit hooks:
