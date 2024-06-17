@@ -8,19 +8,31 @@
 ## Installation Steps
 
 1. **Create a Python Environment**
-
    Use Conda to create a new environment with Python 3.8:
-
-   ```bash
-   conda create -n fsoco python=3.8
+     ```bash
+     conda create -n myenv python=3.8
 
   2. **Activate the Environment**
-    conda activate myenv
-  3.**Upgrade pip**
+     ```bash
+   conda activate myenv
+
+  3. **Upgrade pip**
+     ```bash
      pip install --upgrade pip
-  4. **Install FSOCO Tools**
+     
+  4. **Install Setuptools**
+     Install a compatible version of Setuptools (version 60.8.2 recommended due to a bug in 60.9.0):
+     ```bash
+      pip install setuptools==60.8.2
+  6. **Install FSOCO Tools**
+  7. Navigate to the directory containing FSOCO Tools and install:
+     ```bash
      pip install --editable .[sly]
-     pip intsall -r requirements.txt
-     pre-commit install
-  5. **Verify Installation**
+    ## For development
+    ```bash
+    pip install -r requirements.txt
+    pre-commit install
+  8. **Verify Installation**
+     ```bash
      fsoco --help
+     
