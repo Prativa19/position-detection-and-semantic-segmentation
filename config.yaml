@@ -1,0 +1,12 @@
+
+path: "C:/Users/karna/OneDrive/Documents/01_ProjectYOLO/fsoco_bounding_boxes_custom_dataset"
+train: train/images
+val: test/images
+
+#Classes
+names:
+  0: yellow_cone
+  1: blue_cone
+  2: orange_cone
+  3: large_orange_cone
+  4: unknown_cone
